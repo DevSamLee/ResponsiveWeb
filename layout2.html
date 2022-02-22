@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Media Query</title>
+ <style>
+  body {background: #b71c1c; color: #fff; font-size: 18px;}
+  h1::before {content: '1. ';}
+  h1::after {content: '- default';}
+  /* screen width 0 - 1280px : desktop & TV */
+  @media (max-width: 1280px){
+   body {background: #880e4f;}
+   h1::before {content: '2. ';}
+   h1::after {content: '- 1025px - 1280px';}
+  }
+  /* screen width 0 - 1024px : desktop */
+  @media (max-width: 1024px){
+   body {background: #4a148c;}
+   h1::before {content: '3. ';}
+   h1::after {content: '- 961px - 1024px';}
+  }
+  /* screen width 0 - 960px : laptop */
+  @media (max-width: 960px){
+   body {background: #311b92;}
+   h1::before {content: '4. ';}
+   h1::after {content: '- 769px - 960px';}
+  }
+  /* screen width 0 - 768px : tablet */
+  @media (max-width: 768px){
+   body {background: #4a148c;}
+   h1::before {content: '5. ';}
+   h1::after {content: '- 577px - 768px';}
+  }
+  /* screen width 0 - 576px :mobile */
+  @media (max-width: 576px){
+   body {background: #004d40;}
+   h1::before {content: '6. ';}
+   h1::after {content: '- 0px - 576px';}
+  }
+ </style>
+</head>
+<body>
+ <h1>Media Query</h1>
+ <p>Media queries is a feature of CSS 3 allowing content rendering to adapt to different conditions such as screen
+ resolution. It became a W3C recommended standard in June 2012, and is a cornerstone technology of responsive web design.</p>
+ <p>@media only all and (condition) {implementation}</p>
+ <ul>
+  <li>@media: is a starting point of media query.</li>
+  <li>only: prevents older browsers that do not support media queries with media features from applying the specified styles.</li>
+  <li>all: is used by default when no other type is specified.
+   <ul>
+    <li>all: used for all media type devices.</li>
+    <li>print: used for printers.</li>
+    <li>screen: used for computer screens, tablets, smart-phones etc.</li>
+    <li>aural: used for screen readers.</li>
+    <li>tv: used for television.</li>
+    <li>handheld: used for handheld devices.</li>
+    <li>projection: used for projector.</li>
+   </ul>
+  </li>
+  <li>and: The and keyword combines a media feature with a media type or other media features.</li>
+  <li>(condition): boolean condition</li>
+  <li>{implementation}: provides implementation based on conditions.</li>
+ </ul>
+</body>
+</html>
