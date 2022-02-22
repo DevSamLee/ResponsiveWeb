@@ -7,6 +7,14 @@
 ## Contents
 * HTML / CSS (and a little bit of jQuery)
 
+<!-- OVERVIEW -->
+## Overview
+
+|  Media Quries  |
+|-----------------|
+|![](./images/media_query.gif) |
+
+
 <!-- CONTACT -->
 ## Contact
 
