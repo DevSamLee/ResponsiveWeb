@@ -14,6 +14,25 @@
 |-----------------|
 |![](./images/media_query.gif) |
 
+| Layout 01  |
+|-----------------|
+|![](./images/layout01.gif) |
+
+| Layout 02  |
+|-----------------|
+|![](./images/layout02.gif) |
+
+| Layout 03  |
+|-----------------|
+|![](./images/layout03.gif) |
+
+| Layout 04  |
+|-----------------|
+|![](./images/layout04.gif) |
+
+| Layout 05  |
+|-----------------|
+|![](./images/layout05.gif) |
 
 <!-- CONTACT -->
 ## Contact
