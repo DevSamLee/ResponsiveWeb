@@ -18,3 +18,8 @@ dl,ul,li,ol,menu {list-style: none;}
 
 /* h tag reset */
 h1, h2, h3, h4, h5, h6 {font-size: 13px; color:#222; font-weight: normal;}
+
+/* IR effect */
+.ir_pm {display: block; overflow: hidden; font-size: 0; line-height: 0; text-indent: -9999px;}
+.ir_wa {display: block; overflow: hidden; position: relative; z-index: -1; width: 100%; height: 100%;}
+.ir_su {overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px;}
