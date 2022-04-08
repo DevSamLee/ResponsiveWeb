@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/slick.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="icon/favicon.ico">
@@ -212,11 +213,15 @@
                 <section id="cont_center">
                     <h3 class="ir_su">Main</h3>
                     <article class="column col4">
-                        <h4 class="col_tit">Title</h4>
+                        <h4 class="col_tit">Slick Slider</h4>
                         <p class="col_desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, nisi.</p>
-                        <!-- -->
-                        
-                        <!--// -->
+                        <!-- image slide -->
+                        <div class="slider">
+                            <div><img src="img/slider001.jpg" alt="image1"></div>
+                            <div><img src="img/slider002.jpg" alt="image2"></div>
+                            <div><img src="img/slider003.jpg" alt="image3"></div>
+                        </div>
+                        <!--//image slide -->
                     </article>
                     <!--//col4 -->
                     <article class="column col5">
@@ -276,5 +281,24 @@
     <!-- JavaScript Libraries -->
     <script src="js/jquery.min_1.12.4.js"></script>
     <script src="js/modernizr-custom.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+    // image slider
+    $(".slider").slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    dots: false
+                }
+            }
+        ]
+    });
+    </script>
 </body>
 </html>
