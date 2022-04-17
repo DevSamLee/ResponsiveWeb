@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resposive web page: header menu</title>
+
     <!-- style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -25,9 +26,9 @@
     <link rel="icon" href="icon/favicon-128.png" sizes="128x128">
 
     <!-- web font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
 
     <!-- HTML5shiv ie6-8 -->
         <!--[if lt IE 9]>
@@ -145,12 +146,12 @@
                         <!-- menu -->
                         <div class="menu">
                             <ul>
-                                <li><a href="#">Club<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
-                                <li><a href="#">Tutorial<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
-                                <li><a href="#">Website<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
-                                <li><a href="#">Reference<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
-                                <li><a href="#">CSS3<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
-                                <li><a href="#">HTML5<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                                <li><a href="#">Cafe <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                                <li><a href="#">Tutorial <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                                <li><a href="#">WebSite <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                                <li><a href="#">Reference <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                                <li><a href="#">CSS3 <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                                <li><a href="#">HTML5 <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                         <!--//menu -->
@@ -217,9 +218,24 @@
                         <p class="col_desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, nisi.</p>
                         <!-- image slide -->
                         <div class="slider">
-                            <div><img src="img/slider001.jpg" alt="image1"></div>
-                            <div><img src="img/slider002.jpg" alt="image2"></div>
-                            <div><img src="img/slider003.jpg" alt="image3"></div>
+                            <div>
+                                <figure>
+                                    <img src="img/slider001.jpg" alt="image1">
+                                    <figcaption><em>Resposive Site1</em><span>Slide plugin</span></figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="img/slider001.jpg" alt="image2">
+                                    <figcaption><em>Resposive Site2</em><span>Slide plugin</span></figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="img/slider001.jpg" alt="image3">
+                                    <figcaption><em>Resposive Site3</em><span>Slide plugin</span></figcaption>
+                                </figure>
+                            </div>
                         </div>
                         <!--//image slide -->
                     </article>
@@ -288,13 +304,12 @@
         dots: true,
         autoplay: true,
         autoplaySpeed: 3000,
-        arrows: false,
+        arrows: true,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: true,
-                    dots: false
+                    autoplay: false,
                 }
             }
         ]
