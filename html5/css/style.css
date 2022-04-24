@@ -166,6 +166,11 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
  .nav > div li {width: 33.3333%;}
  .nav > div:last-child li {width: 33.3333%;}
  .nav > div ol {margin-bottom: 10px;}
+
+ #cont_right {overflow: hidden;}
+ #cont_right .column {float: left; width: 33.3333%; box-sizing: border-box;}
+ #cont_right .column.col7 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
+ #cont_right .column.col8 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
 }
 
 /* screen width 0 - 768px */
