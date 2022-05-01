@@ -1,16 +1,41 @@
 # ResponsiveWeb
 > This repository is for tutorials of the responsive website.
->
-> Link : https://youtu.be/52TT7SLexxE (in Korean)
+> Responsive website link: https://standardresponsiveweb.netlify.app/
+> Tutorial link : https://youtu.be/52TT7SLexxE (in Korean)
 
 <!-- CONTENTS -->
 ## Contents
-* HTML / CSS (and a little bit of jQuery)
+* Layout: HTML / CSS (and a little bit of jQuery)
+* Responsive web: HTML / CSS / JavaScript
 
 <!-- OVERVIEW -->
 ## Overview
 
-|  Media Quries  |
+### Responsive Website
+
+|  Header menu animation  |
+|-----------------|
+|![](./images/header.gif) |
+
+|  Side and Expandable menu  |
+|-----------------|
+|![](./images/menu.gif) |
+
+|  Blend effect  |
+|-----------------|
+|![](./images/blend.gif) |
+
+|  slick slider |
+|-----------------|
+|![](./images/slickslider.gif) |
+
+| Mouse hover effect 1 | Mouse hover effect 2 | Mouse hover effect 3 |
+|-----------------|-----------------|-----------------|
+|![](./images/hover1.gif) |![](./images/hover2.gif) |![](./images/hover3.gif) |
+
+### Layout
+
+|  Media Query  |
 |-----------------|
 |![](./images/media_query.gif) |
 
