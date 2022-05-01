@@ -1,6 +1,8 @@
 # ResponsiveWeb
 > This repository is for tutorials of the responsive website.
+> 
 > Responsive website link: https://standardresponsiveweb.netlify.app/
+> 
 > Tutorial link : https://youtu.be/52TT7SLexxE (in Korean)
 
 <!-- CONTENTS -->
