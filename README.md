@@ -10,6 +10,12 @@
 * Layout: HTML / CSS (and a little bit of jQuery)
 * Responsive web: HTML / CSS / JavaScript
 
+<!-- REFLECTION -->
+## What I've learned
+* Blend effect
+* Hover effect with `transform-style: preserve-3d`
+* Lots of bugs with this project -> Lots of debugging! (mostly typo)
+
 <!-- OVERVIEW -->
 ## Overview
 
