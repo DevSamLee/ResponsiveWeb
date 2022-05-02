@@ -3,7 +3,7 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 #header {}
 #nav {background-color: #f6fdff;}
 #title {background-color: #eaf7fd;}
-#contents {width: 1900px; height: 1330px;}
+#contents {height: 1330px;}
 #contents .container {border-right: 1px solid #dbdbdb; border-left: 1px solid #dbdbdb;}
 #cont_left {float: left; width: 250px;}
 #cont_center {overflow: hidden; min-height: 1300px; margin-right: 250px; border-right: 1px solid #dbdbdb; border-left: 1px solid #dbdbdb;}
@@ -253,6 +253,10 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
  .column2.col2 {background: #fff;}
  .column2.col4 {border-top: 1px solid #dbdbdb;}
 
+ #cont_right .column {width: 50%;}
+ #cont_right .column.col8 {border-right: 0;}
+ #cont_right .column.col9 {display: none;}
+
  .slider figcaption {padding: 10px;}
  .slider figcaption em {font-size: 18px;}
  .slider figcaption span {font-size: 14px;}
@@ -265,6 +269,9 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
 @media (max-width: 320px){
  .nav > div li {width: 100%;}
  .nav > div:last-child li {width: 100%;}
+
+ #cont_right .column {width: 100%;}
+ #cont_right .column.col7 {border-right: 0; border-bottom: 1px solid #dbdbdb;}
 
  .square a {width: 100%; margin-right: 0; margin-left: 0;}
 }
