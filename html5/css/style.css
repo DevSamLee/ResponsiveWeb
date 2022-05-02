@@ -249,8 +249,8 @@ body {background: url(../img/header_bg.jpg) repeat-x center top;}
  .column.col1 .menu li:nth-child(3n) {border-right: 0;}
  .column.col1 .menu li a {color: #fff; text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);}
  .column.col1 .menu li a:hover {box-shadow: none; background: rgba(36, 130, 174, 0.3);}
- .column2.col2 {background: #fff;}
- .column2.col4 {border-top: 1px solid #dbdbdb;}
+ .column.col2 {background: #fff;}
+ .column.col4 {border-top: 1px solid #dbdbdb;}
 
  #cont_right .column {width: 50%;}
  #cont_right .column.col8 {border-right: 0;}
