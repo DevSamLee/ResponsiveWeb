@@ -35,9 +35,6 @@
 |-----------------|-----------------|-----------------|
 |![](./images/hover1.gif) |![](./images/hover2.gif) |![](./images/hover3.gif) |
 
-|  Respoinsive web by screen width  |
-|-----------------|
-|![](./images/responsive.gif) |
 
 ### Layout
 
