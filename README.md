@@ -33,9 +33,9 @@
 |-----------------|
 |![](./images/blend.gif) |
 
-|  slick slider |  test  |
-|-----------------|-----------------|
-|![](./images/slickslider.gif) |![](./images/5-1.webm) |
+|  slick slider |
+|-----------------|
+|![](./images/slickslider.gif) |
 
 | Mouse hover effect 1 | Mouse hover effect 2 | Mouse hover effect 3 |
 |-----------------|-----------------|-----------------|
